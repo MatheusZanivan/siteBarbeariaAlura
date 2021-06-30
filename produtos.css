@@ -17,6 +17,10 @@ nav li{
     display: inline;
     margin: 0 0 0 15px;
 }
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
 nav a{
     text-transform: uppercase;
     color: #000000;
@@ -30,6 +34,15 @@ nav a{
     margin: 0 auto;
     padding:50px 0;
 
+}
+.produtos li:hover {
+    border-color: #C78C19;
+}
+.produtos li:active {
+    border-color: #088C19;    
+}
+.produtos li:hover h2 {
+    font-size: 34px;
 }
 .produtos li{
     display: inline-block;
@@ -54,4 +67,14 @@ nav a{
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background: url('images/bg.jpg');
+    padding: 40px 0;
+}
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
